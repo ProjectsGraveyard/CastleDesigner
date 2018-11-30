@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>AoE Castle Designer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="canvas_engine.js" charset="utf-8"></script>
+    <script src="utility.js" charset="utf-8"></script>
+    <script src="data.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+</head>
+<body>
+    <div style="height:20px;"></div>
+    <!-- Help and top tools -->
+    <div class="jumbotron">
+        <div class="container">
+            <h2>AoE Castle Designer</h2>
+            <p>Tools placeholder</p>
+        </div>
+    </div>
+    <!-- Main -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="OuterContainer">
+                <canvas id="objects" class="Canv"></canvas>
+                <canvas id="mouse" class="Canv"></canvas>
+                <canvas id="grid" class="Canv"></canvas>
+                <canvas id="tower" class="Canv"></canvas>
+                <canvas id="info" class="Canv"></canvas>
+                <div class="Sidebar">
+                    <table class="table sidebarTable">
+                        <tr>
+                            <th style="width:45%;">Buiding</th>
+                            <th style="width:15%;">Built</th>
+                            <th style="width:15%;">Left</th>
+                            <th style="width:15%;">Max</th>
+                        </tr>
+                    </table>
+                    <div id="tableContainer">
+                        <table class="table sidebarTable">
+                            <tbody id="buildingTable"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

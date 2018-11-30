@@ -1,0 +1,46 @@
+﻿body {
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+}
+
+.OuterContainer {
+    position: relative;
+    width: 1104px;
+    height: 804px;
+    margin: 0 auto;
+}
+
+.container, .jumbotron {
+    min-width: 1140px;
+}
+
+.Canv {
+    position: absolute;
+    width: 802px;
+    height: 802px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #808080;
+}
+
+.Sidebar {
+    position: absolute;
+    width: 302px;
+    height: 802px;
+    left: 802px;
+    top: 0px;
+    border: 1px solid #808080;
+}
+
+#tableContainer {
+    overflow: auto;
+    height: 760px;
+}
+
+.sidebarTable {
+    margin-bottom: 0px;
+}
