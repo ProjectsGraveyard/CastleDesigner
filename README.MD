@@ -2,7 +2,7 @@
 
 A castle designer for Age of Empire: Castle Siege
 
-I wrote this when I was in high school. It is unfinished and mostly
+I wrote this when I was in high school, it is unfinished and mostly
 non-functional.
 
 I will abandon this project for good since the game Age of Empire: Castle Siege
